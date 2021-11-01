@@ -8,9 +8,9 @@ export default () => (dispatch) => {
     axiosInstance
       .get('forecast.json?key=ccbbfb606dba48bbb02111217210111&q=Jakarta&days=3&aqi=yes&alerts=yes')
       .then((res) => {
-        console.log('=================res data==================')
-        console.log(res.data)
-        console.log('-----------------res data------------------')
+        // console.log('=================res data==================')
+        // console.log(res.data)
+        // console.log('-----------------res data------------------')
         dispatch({
           type: FORECAST_SUCCESS,
           payload: res.data,

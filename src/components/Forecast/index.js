@@ -4,8 +4,8 @@ import { DETAIL_SCREEN } from '../../constants/screen';
 
 const ForecastComponent = ({data, navigation}) => {
 
-    console.log(data);
-    console.log(data.forecast?.forecastday);
+    // console.log(data);
+    // console.log(data.forecast?.forecastday);
     return (
         <View>
             {/* Bagian Location dan Last Updated */}
