@@ -46,9 +46,9 @@ const Detail = ({ route, navigation }) => {
                                                     />
                                                 </View>
                                                 <View>
-                                                    <Text>Max Temperatur: {data.day.maxtemp_c}°C</Text>
-                                                    <Text>Min Temperatur: {data.day.mintemp_c}°C</Text>
-                                                    <Text>Avg Temperatur: {data.day.avgtemp_c}°C</Text>
+                                                    <Text>Max Temperature: {data.day.maxtemp_c}°C</Text>
+                                                    <Text>Min Temperature: {data.day.mintemp_c}°C</Text>
+                                                    <Text>Avg Temperature: {data.day.avgtemp_c}°C</Text>
                                                     <Text>Max Wind Speed: {data.day.maxwind_kph}KPH</Text>
                                                     <Text>Total Precipitation: {data.day.totalprecip_mm}mm</Text>
                                                 </View>
@@ -73,7 +73,7 @@ const Detail = ({ route, navigation }) => {
                                 <View style={{ marginLeft: 30 }}>
                                     <Text style={{ fontSize: 14, fontWeight: 'bold' }}
                                     >{item.time}</Text>
-                                    <Text>Temperatur: {item.temp_c}°C</Text>
+                                    <Text>Temperature: {item.temp_c}°C</Text>
                                     <Text>Wind Speed: {item.wind_kph}KPH</Text>
                                     <Text>Pressure: {item.pressure_mb}mb</Text>
                                     <Text>Precipitation: {item.precip_mm}mm</Text>
